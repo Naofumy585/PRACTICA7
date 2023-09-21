@@ -34,7 +34,7 @@ body{
     left: 0;
 }
 #menu{
-    height: 40px;
+    height: 20px;
     position: relative;
     top: 200px;
 }
@@ -43,7 +43,8 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #664c04;
+    background-color: #533c09;
+    
 }
 li{
     float: left;
@@ -112,11 +113,8 @@ td {
     border: 1px solid black; /* Bordes de las celdas */
     padding: 10px; /* Espaciado interno */
     text-align: justify; /* Texto centrado en las celdas */
-}
-td{
     vertical-align: text-top;
 }
-
 h2{
     text-align: center;
 
@@ -129,6 +127,17 @@ h2{
 }
 .fila {
     display: table-row;
+    color: #d89822;
+    height: 97%;
+    width: auto;
+    padding: 20px 10px  20px 40px;
+    margin: 0px;
+    border: 1px solid #6d6a6a;
+    background-color: #d89822;
+    border-radius: 15px;
+    border: solid 2px #6d6a6a;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px black;
 }
 .imagen {
     display:-ms-inline-flexbox;
@@ -146,16 +155,22 @@ h2{
     color: #111111;
     font-family: Arial, Helvetica, sans-serif;
 }
-.fila{
-    color: #d89822;
-    height: 97%;
-    width: auto;
-    padding: 20px 10px  20px 40px;
-    margin: 0px;
-    border: 1px solid #6d6a6a;
-    background-color: #d89822;
-    border-radius: 15px;
-    border: solid 2px #6d6a6a;
-    border-radius: 15px 0px 15px 0px;
-    box-shadow: 2px 2px 5px black;
+div h1{
+    color: #111111;
+    text-align: center;
+}
+/* Estilos para el iframe */
+#mapa iframe {
+    width: 100%; /* Ajusta el ancho automáticamente al del div contenedor */
+    height: 200px; /* Ajusta el alto automáticamente al del div contenedor */
+    border: 0;
+}
+.piePaginaC {
+    width: 100%;
+    height:auto;
+    background: #d89822;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
 }
